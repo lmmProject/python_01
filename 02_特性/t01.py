@@ -8,9 +8,9 @@ n = 3
 for i in range(n):
     r.append(L[i])
 
-print (r)
+print(r)
 
-#切片操作
+# 切片操作
 print(L[0:3])
 print(L[:3])
 

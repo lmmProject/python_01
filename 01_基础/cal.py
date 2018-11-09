@@ -3,11 +3,11 @@ import math   # 导入 math 模块
 # 变量的定义，条件语句
 a = 100
 if a >= 0:
-    print(math.pow(2,32))
+    print(math.pow(2, 32))
 else:
     print(-a/2)
 
-#动态语言
+# 动态语言
 a = a + 10.0
 print(a)
 
@@ -16,11 +16,11 @@ b = a
 a = 'xyz'
 print(b)
 
-#整数的地板除//永远是整数，即使除不尽
+# 整数的地板除//永远是整数，即使除不尽
 print(10 // 3)
 print(10 % 3)
 
-#ASCII编码,大写字母A的编码是65，小写字母z的编码是122
+# ASCII编码,大写字母A的编码是65，小写字母z的编码是122
 print("获取字符串的整数表示ord():")
 print(ord('a'))
 print(chr(20013))

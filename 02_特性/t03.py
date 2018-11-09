@@ -15,5 +15,5 @@ print([d for d in os.listdir('.')])
 
 
 d = {'x': 'A', 'y': 'B', 'z': 'c'}
-print ([k + '=' + v for k, v in d.items()])
-print ([k + '=' + v.lower() for k, v in d.items()])
+print([k + '=' + v for k, v in d.items()])
+print([k + '=' + v.lower() for k, v in d.items()])

@@ -54,7 +54,7 @@ class Student2(object):
     def age(self):
         return 2015 - self._birth
 
-    # 上面的birth是可读写属性，而age就是一个只读属性，因为age可以根据birth和当前时间计算出来。
+# 上面的birth是可读写属性，而age就是一个只读属性，因为age可以根据birth和当前时间计算出来。
 # 小结
 # @property广泛应用在类的定义中，可以让调用者写出简短的代码，同时保证对参数进行必要的检查，
 # 这样，程序运行时就减少了出错的可能性。
